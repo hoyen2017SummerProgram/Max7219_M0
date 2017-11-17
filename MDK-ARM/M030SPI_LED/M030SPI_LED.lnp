@@ -1,0 +1,27 @@
+--cpu Cortex-M0
+"m030spi_led\stm32f0xx_hal_msp.o"
+"m030spi_led\stm32f0xx_it.o"
+"m030spi_led\main.o"
+"m030spi_led\drv_max7219.o"
+"m030spi_led\startup_stm32f030x8.o"
+"m030spi_led\stm32f0xx_hal_flash_ex.o"
+"m030spi_led\stm32f0xx_hal_flash.o"
+"m030spi_led\stm32f0xx_hal_tim.o"
+"m030spi_led\stm32f0xx_hal_dma.o"
+"m030spi_led\stm32f0xx_hal_tim_ex.o"
+"m030spi_led\stm32f0xx_hal_i2c_ex.o"
+"m030spi_led\stm32f0xx_hal_spi.o"
+"m030spi_led\stm32f0xx_hal_gpio.o"
+"m030spi_led\stm32f0xx_hal.o"
+"m030spi_led\stm32f0xx_hal_i2c.o"
+"m030spi_led\stm32f0xx_hal_pwr.o"
+"m030spi_led\stm32f0xx_hal_cortex.o"
+"m030spi_led\stm32f0xx_hal_rcc.o"
+"m030spi_led\stm32f0xx_hal_spi_ex.o"
+"m030spi_led\stm32f0xx_hal_rcc_ex.o"
+"m030spi_led\stm32f0xx_hal_pwr_ex.o"
+"m030spi_led\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter "M030SPI_LED\M030SPI_LED.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "M030SPI_LED.map" -o M030SPI_LED\M030SPI_LED.axf
